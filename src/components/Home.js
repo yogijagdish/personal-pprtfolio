@@ -1,6 +1,6 @@
 import React from "react";
 import background from "../images/background.jpeg";
-import my_photo from "../images/my_photo.jpg";
+import my_photo from "../images/my_photo.png";
 import Skills from "./Skills";
 
 export default function Home() {
