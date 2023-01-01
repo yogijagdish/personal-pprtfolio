@@ -1,4 +1,5 @@
 import React from "react";
+import {Link} from "react-router-dom"
 import j_image from "../images/j_image.webp"
 import { AiFillHome } from "react-icons/ai";
 import {GiSkills} from "react-icons/gi";
@@ -14,10 +15,10 @@ export default function Navbar() {
 
       {/* flex 2  */}
       <ul className="flex basis-2/4 justify-center space-x-28">
-        <li> <a href="/"> <AiFillHome className="float-left mr-2" size={26}/> Home </a> </li>
-        <li> <a href="/"> <GiSkills className="float-left mr-2" size={26}/>Skills </a></li>
-        <li> <a href="/"> <FcAbout className="float-left mr-2" size={26}/> About </a> </li>
-        <li> <a href="/"> <FcContacts className="float-left mr-2" size={26}/> Contact Me </a></li>
+        <li> <Link to="/"> <AiFillHome className="float-left mr-2" size={26}/> Home </Link></li>
+        <li> <Link to="/skills"> <GiSkills className="float-left mr-2" size={26}/>Skills </Link></li>
+        <li> <Link to="/"> <FcAbout className="float-left mr-2" size={26}/> About </Link></li>
+        <li> <Link to="/"> <FcContacts className="float-left mr-2" size={26}/> Contact Me </Link></li>
       </ul>
     </nav>
   );
