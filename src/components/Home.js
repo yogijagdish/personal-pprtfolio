@@ -29,6 +29,19 @@ export default function Home() {
           <img src={my_photo} alt="my_photo" className="float-left" />
         </div>
       </div>
+      <div>
+        <h1 className="text-2xl font-bold text-center text-orange-600"> KNOW MORE ABOUT ME </h1>
+        <h1 className="text-2xl font-bold text-left text-orange-600"> EDUCATION </h1>
+        <div className="w-3/5 h-40 m-8 bg-sky-800">
+        <p> Completed SLC from Public Secondary English Boarding School on 2072 <br /> Pyuthan Municiplity-2, Pyuthan</p>
+        </div>
+        <div className="w-3/5 h-40 m-8 bg-sky-800">
+        <p> Completed +2 from New Summit College on 2074 <br /> Purano Baneshwor, Kathmandu</p>
+        </div>
+        <div className="w-3/5 h-40 m-8 bg-sky-800">
+        <p> Currently Studying Bachelor's in Engineering in Paschimanchal Caompus <br /> Lamachaur-16, Pokhara</p>
+        </div>
+      </div>
     </>
   );
 }
