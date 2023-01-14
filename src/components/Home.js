@@ -1,6 +1,10 @@
 import React from "react";
 import my_photo from "../images/my_photo.png";
 import background from "../images/background.webp";
+import school from "../images/school.jpg";
+import college from "../images/college.jpg";
+import bachelorcollege from "../images/bachelor-college.jpg";
+import gallary from "../Gallary/Gallary.js"
 
 export default function Home() {
   return (
@@ -13,15 +17,8 @@ export default function Home() {
             <br />
             Student of Electronics, Communication and Information Engineering.
             <br />
-            <button class="bg-sky-500 hover:bg-sky-800 text-white mt-4 py-2 px-4 rounded inline-flex items-center">
-              <svg
-                class="fill-current w-4 h-4 mr-2"
-                xmlns="http://www.w3.org/2000/svg"
-                viewBox="0 0 20 20"
-              >
-                <path d="M13 8V2H7v6H2l8 8 8-8h-5zM0 18h20v2H0v-2z" />
-              </svg>
-              <span>Download Resume</span>
+            <button className="m-4 border-2 rounded-lg bg-blue-600 border-blue-800 shadow-lg shadow-blue-600/60 transition ease-in-out delay-150 hover:-translate-y-1 hover:scale-110 hover:bg-blue-500 duration-300">
+              <div className="p-2"> Download Resume </div>
             </button>
           </p>
         </div>
@@ -30,16 +27,55 @@ export default function Home() {
         </div>
       </div>
       <div>
-        <h1 className="text-2xl font-bold text-center text-orange-600"> KNOW MORE ABOUT ME </h1>
-        <h1 className="text-2xl font-bold text-left text-orange-600"> EDUCATION </h1>
-        <div className="w-3/5 h-40 m-8 bg-sky-800">
-        <p> Completed SLC from Public Secondary English Boarding School on 2072 <br /> Pyuthan Municiplity-2, Pyuthan</p>
+        <div>
+        <h1 className="text-2xl font-bold text-center text-orange-600">
+          KNOW MORE ABOUT ME
+        </h1>
+        <h1 className="text-2xl font-bold text-left text-orange-600">
+          EDUCATION
+        </h1>
+        <div className="flex flex-row ">
+          <p  className="w-3/5 h-40 mt-8 bg-sky-800 p-16">
+            Completed SLC from Public Secondary English Boarding School on 2072
+            <br /> Pyuthan Municiplity-2, Pyuthan
+          </p>
+          <img src={school} alt="" className="w-96 ml-72" />
         </div>
-        <div className="w-3/5 h-40 m-8 bg-sky-800">
-        <p> Completed +2 from New Summit College on 2074 <br /> Purano Baneshwor, Kathmandu</p>
+        <div className="flex flex-row-reverse">
+          <p className="w-3/5 h-40 mt-8 bg-sky-800 p-16">
+            Completed +2 from New Summit College on 2074 <br /> Purano
+            Baneshwor, Kathmandu
+          </p>
+          <img src={college} alt="pic of colllege" className="w-96 mr-72" />
         </div>
-        <div className="w-3/5 h-40 m-8 bg-sky-800">
-        <p> Currently Studying Bachelor's in Engineering in Paschimanchal Caompus <br /> Lamachaur-16, Pokhara</p>
+        <div className="flex flex-row">
+          <p className="w-3/5 h-40 mt-8 bg-sky-800 p-16">
+            Currently Studying Bachelor's in Engineering in Paschimanchal
+            Caompus <br /> Lamachaur-16, Pokhara
+          </p>
+          <img src={bachelorcollege} alt="pic of paschimanchal campus" className="w-96 ml-72" />
+        </div>
+        </div>
+        <div>
+        <h1 className="text-2xl font-bold text-left text-orange-600">
+          GALLARY
+        </h1>
+        <div className="w-96 border-2 rounded-lg border-blue-900">
+          <img src={gallary.imagedatascience} alt=""/>
+          Workshop on Data Analysis and Machine learning Introduction on Python organized by the department
+        </div>
+        <div className="w-96 border-2 rounded-lg border-blue-900">
+          <img src={gallary.imagejankari} alt=""/>
+          Workshop on quality testing and assurance organized by ices and jankari teck
+        </div>
+        <div className="w-96 border-2 rounded-lg border-blue-900">
+          <img src={gallary.imagebattleforspeed} alt=""/>
+          Participating in Battle for Speed organized by Robotics Club
+        </div>
+        <div className="w-96 border-2 rounded-lg border-blue-900">
+          <img src={gallary.imageminor} alt=""/>
+          Minor Project Defence and Prototype of our project
+        </div>
         </div>
       </div>
     </>
