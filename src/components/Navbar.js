@@ -8,7 +8,7 @@ import {FcAbout,FcContacts} from "react-icons/fc"
 
 export default function Navbar() {
   return (
-    <nav className="flex p-4">
+    <nav className="flex p-4 bg-slate-400*">
 
       {/* flex 1  */}
       <div className="basis-2/4 ml-48 px-32"> <a href="/">  <img src={j_image} alt="pic of a alphabet" className="h-5 float-left mr-2"/> Jagdish Yogi</a> </div>

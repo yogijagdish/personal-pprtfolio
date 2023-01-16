@@ -1,7 +1,8 @@
 import './App.css';
 import Home from './components/Home';
 import Navbar from './components/Navbar';
-import Skills from './components/Skills';
+import Skills from './components/Skills'
+import Footer from './components/Footer';
 
 import {
   BrowserRouter as Router,
@@ -18,7 +19,8 @@ function App() {
     <Route path="/" index element = {<Home/>}/>
     <Route path="/skills" element={<Skills/>}/>
       </Routes>   
-    </Router>
+      <Footer/>
+       </Router>
     </>
   );
 }
