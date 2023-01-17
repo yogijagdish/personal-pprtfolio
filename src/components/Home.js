@@ -35,29 +35,29 @@ export default function Home() {
             EDUCATION
           </h1>
           <div className="flex flex-row ">
-            <p className="w-3/5 h-40 mt-8 bg-sky-800 p-16">
+            <p className="rounded-r-3xl w-3/5 h-40 mt-8 bg-sky-800 p-16">
               Completed SLC from Public Secondary English Boarding School on
               2072
               <br /> Pyuthan Municiplity-2, Pyuthan
             </p>
-            <img src={school} alt="" className="w-96 ml-72" />
+            <img src={school} alt="" className="w-96 ml-72 rounded-3xl" />
           </div>
           <div className="flex flex-row-reverse">
-            <p className="w-3/5 h-40 mt-8 bg-sky-800 p-16">
+            <p className="rounded-l-3xl w-3/5 h-40 mt-8 bg-sky-800 p-16">
               Completed +2 from New Summit College on 2074 <br /> Purano
               Baneshwor, Kathmandu
             </p>
-            <img src={college} alt="pic of colllege" className="w-96 mr-72" />
+            <img src={college} alt="pic of colllege" className="w-96 mr-72 rounded-3xl" />
           </div>
           <div className="flex flex-row">
-            <p className="w-3/5 h-40 mt-8 bg-sky-800 p-16">
+            <p className="rounded-r-3xl w-3/5 h-40 mt-8 bg-sky-800 p-16">
               Currently Studying Bachelor's in Engineering in Paschimanchal
               Caompus <br /> Lamachaur-16, Pokhara
             </p>
             <img
               src={bachelorcollege}
               alt="pic of paschimanchal campus"
-              className="w-96 ml-72"
+              className="w-96 ml-72 rounded-3xl"
             />
           </div>
         </div>

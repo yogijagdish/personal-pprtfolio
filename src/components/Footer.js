@@ -4,7 +4,9 @@ import footer_image from "../Footer/footer.js";
 export default function Footer() {
   return (
     <div className="bg-slate-400">
-      <p className="text-3xl text-center"> Can Connect With Me in: </p>
+        <div className="pt-8 text-center text-3xl"> Home | Skills | Contact | About</div>
+      <p className="mt-8 text-2xl text-center"> Can Connect With Me in: </p>
+      <div className="grid grid-cols-5 gap-0 justify-center">
       <img
         src={footer_image.instagram}
         alt="logo of instagram"
@@ -22,7 +24,8 @@ export default function Footer() {
         className="h-16"
       />
       <img src={footer_image.github} alt="logo of github" className="h-16" />
+      </div>
     </div>
-    
+
   );
 }
