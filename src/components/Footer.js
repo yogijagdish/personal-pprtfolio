@@ -1,10 +1,11 @@
 import React from "react";
+import {Link} from "react-router-dom"
 import footer_image from "../Footer/footer.js";
 
 export default function Footer() {
   return (
     <div className="bg-slate-400">
-        <div className="pt-8 text-center text-3xl"> Home | Skills | Contact | About</div>
+        <div className="pt-8 text-center text-3xl"> <Link to="/">Home</Link>  | <Link to="/skills">Skills</Link> | <Link to="/"> About </Link> | <Link to="/contact">Contact Me</Link> </div>
       <p className="mt-8 text-2xl text-center"> Can Connect With Me in: </p>
       <div className="grid grid-cols-5 gap-0 justify-center">
       <img

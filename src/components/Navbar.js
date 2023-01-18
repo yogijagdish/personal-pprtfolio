@@ -18,7 +18,7 @@ export default function Navbar() {
         <li> <Link to="/"> <AiFillHome className="float-left mr-2" size={26}/> Home </Link></li>
         <li> <Link to="/skills"> <GiSkills className="float-left mr-2" size={26}/>Skills </Link></li>
         <li> <Link to="/"> <FcAbout className="float-left mr-2" size={26}/> About </Link></li>
-        <li> <Link to="/"> <FcContacts className="float-left mr-2" size={26}/> Contact Me </Link></li>
+        <li> <Link to="/contact"> <FcContacts className="float-left mr-2" size={26}/> Contact Me </Link></li>
       </ul>
     </nav>
   );
