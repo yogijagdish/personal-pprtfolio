@@ -84,6 +84,10 @@ export default function Home() {
               <img src={gallary.imageminor} alt="" />
               Minor Project Defence and Prototype of our project
             </div>
+            <div className="w-96 border-2 rounded-lg border-blue-900">
+              <img src={gallary.imageclass} alt="" />
+              BEI-075 class
+            </div>
           </div>
         </div>
       </div>
