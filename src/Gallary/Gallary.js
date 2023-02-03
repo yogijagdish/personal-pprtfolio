@@ -4,7 +4,9 @@ const Gallary = {
     imagedatascience: require('./data_science.jpeg'),
     imagejankari: require('./jankari_teck.jpeg'),
     imageminor: require('./minor_project.jpeg'),
-    imageclass: require('./class-project.jpg')
+    imageclass: require('./class-project.jpg'),
+    imagetour: require('./3rd-sem-tour.JPG'),
+    imagemardi: require('./mardi-trek.JPG')
 
 }
 
