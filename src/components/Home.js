@@ -1,26 +1,20 @@
 import React from "react";
-import AOS from 'aos';
-import 'aos/dist/aos.css';
-import my_photo from "../images/my_photo.png";
-import background from "../images/background.webp";
-import school from "../images/school.jpg";
-import college from "../images/college.jpg";
-import bachelorcollege from "../images/bachelor-college.jpg";
-import gallary from "../Gallary/Gallary.js";
+import AOS from "aos";
+import "aos/dist/aos.css";
+import { myPhoto } from "../images/images";
 import { useEffect } from "react";
 
 export default function Home() {
-
-  useEffect(()=> {
+  useEffect(() => {
     AOS.init();
-  },[])
+  }, []);
   return (
     <>
-    {/* Front page initally viewed when the portfolio is opened */}
-      <div className="flex" style={{ backgroundImage: `url(${background})` }}>
+      {/* Front page initally viewed when the portfolio is opened */}
+      <div className="flex bg-gray-800">
         <div className="p-36 m-48">
-          <h3 className="text-2xl"> 👋 Hi, </h3>
-          <p className="text-xl">
+          <h3 className="text-4xl font-bodyFont font-extrabold"> 👋 Hi, </h3>
+          <p className="text-3xl font-titleFont font-bold">
             This is Jagdish Yogi,
             <br />
             Student of Electronics, Communication and Information Engineering.
@@ -30,95 +24,8 @@ export default function Home() {
             </button>
           </p>
         </div>
-        <div className="py-32 m-12">
-          <img src={my_photo} alt="my_photo" className="float-left" />
-        </div>
-      </div>
-      <div>
-        {/* More infromation viewed on scroll down */}
-        
-        <div>
-          <h1 className="text-3xl font-bold text-center text-orange-600">
-            KNOW MORE ABOUT ME
-          </h1>
-          {/* Information about my Education journey */}
-          <h1 className="text-3xl font-bold text-left text-orange-600">
-            EDUCATION
-          </h1>
-          {/* About public secondary english boarding school */}
-          <div data-aos="fade-up-right" data-aos-duration="3000" data-aos-easing="ease-in-shine" className="flex flex-row ">
-            <p className="rounded-r-3xl w-3/5 h-40 mt-8 bg-sky-800 p-16">
-              Completed SLC from Public Secondary English Boarding School on
-              2072
-              <br /> Pyuthan Municiplity-2, Pyuthan
-            </p>
-            <img src={school} alt="" className="w-96 ml-72 rounded-3xl" />
-          </div>
-          {/* About New Summit College */}
-          <div data-aos="fade-up-left" data-aos-duration="3000" data-aos-easing="ease-in-shine" className="flex flex-row-reverse">
-            <p className="rounded-l-3xl w-3/5 h-40 mt-8 bg-sky-800 p-16">
-              Completed +2 from New Summit College on 2074 <br /> Purano
-              Baneshwor, Kathmandu
-            </p>
-            <img src={college} alt="pic of colllege" className="w-96 mr-72 rounded-3xl" />
-          </div>
-          {/* About Paschimanchal Campus */}
-          <div data-aos="fade-up-left" data-aos-duration="3000" data-aos-easing="ease-in-shine" className="flex flex-row">
-            <p className="rounded-r-3xl w-3/5 h-40 mt-8 bg-sky-800 p-16">
-              Currently Studying Bachelor's in Engineering in Paschimanchal
-              Caompus <br /> Lamachaur-16, Pokhara
-            </p>
-            <img
-              src={bachelorcollege}
-              alt="pic of paschimanchal campus"
-              className="w-96 ml-72 rounded-3xl"
-            />
-          </div>
-        </div>
-        {/*  Information about the works and programs attended in college life */}
-        <div>
-          <h1 className="text-3xl font-bold text-left text-orange-600">
-            GALLARY
-          </h1>
-          <div className="grid grid-cols-3 gap-6">
-            {/* data science image */}
-            <div data-aos="zoom-in-up" data-aos-duration="3000" data-aos-easing="ease-in-shine" className="w-96 m-4 border-2 rounded-lg border-blue-900">
-              <img src={gallary.imagedatascience} alt="pic of group of people with flex" />
-              Workshop on Data Analysis and Machine learning Introduction on
-              Python organized by the department
-            </div>
-            {/* jankari teck vist */}
-            <div data-aos="zoom-in-up" data-aos-duration="3000" data-aos-easing="ease-in-shine" className="w-96 m-4 border-2 rounded-lg border-blue-900">
-              <img src={gallary.imagejankari} alt="pic of students with some company staff" />
-              Workshop on quality testing and assurance organized by ices and
-              jankari teck
-            </div>
-            {/* robotics club game */}
-            <div data-aos="zoom-in-up" data-aos-duration="3000" data-aos-easing="ease-in-shine" className="w-96 m-4 border-2 rounded-lg border-blue-900">
-              <img src={gallary.imagebattleforspeed} alt="pic of group after winnig the compition" />
-              Participating in Battle for Speed organized by Robotics Club
-            </div>
-            {/* minor project */}
-            <div data-aos="zoom-in-up" data-aos-duration="3000" data-aos-easing="ease-on-shine" className="w-96 m-4 border-2 rounded-lg border-blue-900">
-              <img src={gallary.imageminor} alt="four people with a project prototype" />
-              Minor Project Defence and Prototype of our project
-            </div>
-            {/* class image */}
-            <div data-aos="zoom-in-up" data-aos-duration="3000" data-aos-easing="ease-in-shine" className="w-96 m-4 border-2 rounded-lg border-blue-900">
-              <img src={gallary.imageclass} alt="group of students with their teachers and project" />
-              BEI-075 class
-            </div>
-            {/* bahirahawa tour image  */}
-            <div data-aos="zoom-in-up" data-aos-duration="3000" data-aos-easing="ease-in-shine" className="w-96 m-4 border-2 rounded-lg border-blue-900">
-              <img src={gallary.imagetour} alt="students in field visit" />
-              BEI-075 class Instrumentation tour of Bhairahawa, Chitwan and Butwal
-            </div>
-            {/* mardi image */}
-            <div data-aos="zoom-in-up" data-aos-duration="3000" data-aos-easing="ease-on-shine" className="w-96 m-4 border-2 rounded-lg border-blue-900">
-              <img src={gallary.imagemardi} alt="pic of people in snowfall" />
-              Trekking with college friends in Mardi
-            </div>
-          </div>
+        <div className="mt-52 pr-64">
+          <img src={myPhoto} alt="my_photo" className="float-left h-" />
         </div>
       </div>
     </>

@@ -1,7 +1,6 @@
 import React from "react";
 import { Link } from "react-router-dom";
-import footer_image from "../Footer/footer.js";
-
+import { facebook,instagram,linkedin,twitter,github } from "../images/images.js";
 export default function Footer() {
   return (
     <div className="bg-slate-400 p-8">
@@ -13,27 +12,27 @@ export default function Footer() {
       <p className="mt-8 text-2xl text-center"> Can Connect With Me in: </p>
       <div className="flex flex-row justify-center">
         <img
-          src={footer_image.facebook}
+          src={facebook}
           alt="logo of facebook"
           className="h-16 m-2"
         />
         <img
-          src={footer_image.instagram}
+          src={instagram}
           alt="logo of instagram"
           className="h-16 m-2"
         />
         <img
-          src={footer_image.linkedin}
+          src={linkedin}
           alt="logo of linkedin"
           className="h-16 m-2"
         />
         <img
-          src={footer_image.twitter}
+          src={twitter}
           alt="logo of twitter"
           className="h-16 m-2"
         />
         <img 
-          src={footer_image.github} 
+          src={github} 
           alt="logo of github" 
           className="h-16 m-2" 
         />
