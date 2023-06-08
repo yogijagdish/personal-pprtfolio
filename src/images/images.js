@@ -7,6 +7,8 @@ import twitter from "./Footer/twitter.png"
 import logo from "./Home/j_image.webp"
 import myPhoto from "./Home/my_photo.png"
 
+import pp from "./Home/pp.gif";
+
 export {
     facebook,
     github,
@@ -14,5 +16,6 @@ export {
     linkedin,
     twitter,
     logo,
-    myPhoto
+    myPhoto,
+    pp
 }
