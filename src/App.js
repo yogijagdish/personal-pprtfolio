@@ -12,14 +12,15 @@ import {
 function App() {
   return (
     <>
-    <BrowserRouter>
+    <Navbar/>
+    {/* <BrowserRouter>
       <Navbar />
       {/* <ProgressBar/> */}
-      <Routes>
+      {/* <Routes>
     <Route path="/" index element = {<Home/>}/>
       </Routes>   
       <Footer/>
-       </BrowserRouter>
+      //  </BrowserRouter> */} 
     </>
   );
 }
