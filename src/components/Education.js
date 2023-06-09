@@ -24,8 +24,8 @@ export default function Education() {
                 </div>
                 
                 <div className="border-2 rounded-lg mx-4 my-4 border-gray-900 md:w-96 inline-block p-8">
-                     <p className="font-titleFont font-extrabold mx-auto text-xl md:text-4xl mt-4 ml-12 md:ml-18 py-8"> Bachelors </p> 
-                     <p className="font-bodyFont text-sm md:text-xl mx-4 mt-8"> Passed Bachelor's from Paschmanchal Campus, IOE, TU <br/><br/>
+                     <p className="font-titleFont font-extrabold mx-auto text-xl md:text-4xl mt-4 ml-12 md:ml-6 py-8"> Undergraduate </p> 
+                     <p className="font-bodyFont text-sm md:text-xl mx-4 mt-8"> Passed Bachelor's in Electronics,Communication and Information Engineering from Paschmanchal Campus, IOE, TU <br/><br/>
                      Lamachaur-16, Pokhara <br/><br/>
                     2075 ---- 2080
                     </p>

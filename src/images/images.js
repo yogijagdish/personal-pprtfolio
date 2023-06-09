@@ -9,6 +9,11 @@ import myPhoto from "./Home/my_photo.png"
 
 import pp from "./Home/pp.gif";
 
+import portfolio from "./Projects/portfolio.jpg";
+import moneyCalculator from "./Projects/moneyCalculator.jpeg";
+import trekMonitoringSystem from "./Projects/trekMonitoringSystem.jpg";
+import electronicHealthRecord from "./Projects/electronicHealthRecoed.jpg"
+
 export {
     facebook,
     github,
@@ -17,5 +22,9 @@ export {
     twitter,
     logo,
     myPhoto,
-    pp
+    pp,
+    portfolio,
+    moneyCalculator,
+    trekMonitoringSystem,
+    electronicHealthRecord
 }
