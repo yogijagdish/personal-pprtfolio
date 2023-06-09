@@ -7,8 +7,8 @@ export default function Projects() {
     return(
         <section className="bg-gray-900 text-white" id="projects">
             <div className="container md:mx-auto grid">
-                <div className="information-about-projects mt-6">
-                    <h1 className="font-titleFont font-extrabold text-center text-2xl md:text-6xl py-6 border-b-[5px]"> Projects </h1>
+                <div className="information-about-projects flex flex-col mt-6">
+                    <h1 className="font-titleFont font-extrabold text-center text-2xl md:text-6xl mx-auto py-6 border-b-[5px] border-indigo-600"> Projects </h1>
                     <p className="font-bodyFont text-xl mt-4 pb-6"> Here are links of some of my projects I have done during my leisure time and college time </p>
                 </div>
                 <div className="grid md:grid-cols-3 gap-8">

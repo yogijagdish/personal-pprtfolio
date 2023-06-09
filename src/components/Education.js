@@ -3,7 +3,9 @@ import React from "react";
 export default function Education() {
     return (
         <section className="bg-gray-700 text-white" id="education">
-            <div className="container mx-auto flex items-center justify-center font-titleFont font-extrabold text-2xl md:text-6xl border-b-[5px] py-8">
+            <div className="flex flex-col">
+
+            <div className="font-titleFont font-extrabold text-center text-2xl md:text-6xl mx-auto py-6 border-b-[5px] border-indigo-600">
                 My Education
             </div>
             <div className="grid md:grid-cols-3 items-center md:justify-between">
@@ -30,6 +32,7 @@ export default function Education() {
                     2075 ---- 2080
                     </p>
                 </div>
+            </div>
             </div>
         </section>
     )
