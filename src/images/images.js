@@ -27,10 +27,12 @@ import redux from "./skills/redux.png";
 import css from "./skills/CSS.png";
 import tailwindcss from "./skills/tailwindcss.png";
 import html from "./skills/html.png"
+import my_image from "./Home/my_image.png";
 
 
 
 export {
+    my_image,
     facebook,
     github,
     instagram,
