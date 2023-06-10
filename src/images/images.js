@@ -1,19 +1,14 @@
-import facebook from "./Footer/facebook.png"
-import github from "./Footer/github.png"
-import instagram from "./Footer/instagram.png"
-import linkedin from "./Footer/LinkedIn.png"
-import twitter from "./Footer/twitter.png"
-
+// importing images that are required to display in home page
 import logo from "./Home/j_image.webp"
-import myPhoto from "./Home/my_photo.png"
-
 import pp from "./Home/pp.gif";
 
+// importing images that are required to display in projects sector
 import portfolio from "./Projects/portfolio.jpg";
 import moneyCalculator from "./Projects/moneyCalculator.jpeg";
 import trekMonitoringSystem from "./Projects/trekMonitoringSystem.jpg";
 import electronicHealthRecord from "./Projects/electronicHealthRecoed.jpg"
 
+// impoting images that are requied to display in projects sector
 import c_programming from "./skills/c_programming.png";
 import cplusplus_programming from "./skills/cplusplus_programming.png";
 import django from "./skills/django.png";
@@ -30,16 +25,9 @@ import html from "./skills/html.png"
 import my_image from "./Home/my_image.png";
 
 
-
 export {
     my_image,
-    facebook,
-    github,
-    instagram,
-    linkedin,
-    twitter,
     logo,
-    myPhoto,
     pp,
     portfolio,
     moneyCalculator,

@@ -2,8 +2,6 @@ import React from "react";
 
 import {AiFillGithub,AiOutlineTwitter,AiFillLinkedin} from "react-icons/ai";
 
-import {pp} from "../images/images"
-
 import { my_image } from "../images/images";
 
 export default function Home() {
