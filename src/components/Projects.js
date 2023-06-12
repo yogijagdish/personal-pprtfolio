@@ -18,7 +18,9 @@ export default function Projects() {
                             <div className="relative " key={i}>
                                 <img src={projects.img} alt={projects.title} className="h-64 w-96 mt-16"/>
                                 <div className="font-titleFont font-extrabold text-2xl mt-4">{projects.title}</div>
-                                <div className="flex mx-8 absolute left-4 bottom-28 md:bottom-20 w-[70%] md:w-[60%] h-[50%] bg-gray-600 opacity-0 duration-500 justify-center flex-col hover:opacity-100"  >
+                                {/* this is the content that is displayed on hover */}
+                                <div className="flex mt-16 absolute left-14 top-12 w-64 h-40 bg-gray-600 opacity-0 duration-500 justify-center flex-col hover:opacity-100"  >
+                                    {/* this is about what to place in the center when hover */}
                                     <div className="flex justify-center items-center">
 
                                         <div className="font-titleFont font-bold text-2xl md:text-3xl"> 

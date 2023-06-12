@@ -5,6 +5,7 @@ import Projects from './components/Projects';
 import Skills from './components/Skills';
 import Contact from './components/Contact';
 import Footer from "./components/Footer"
+import BackToTop from './components/BackToTop';
 
 
 function App() {
@@ -17,6 +18,7 @@ function App() {
     <Skills/>
     <Contact/>
     <Footer/>
+    <BackToTop/>
     </>
   );
 }

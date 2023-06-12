@@ -28,6 +28,9 @@ export default function Home() {
             I am <span className="font-titleFont"> J</span>agdish Yogi <br/>
             Web Developer
           </h1>
+          <div className="pt-8">
+            <button className="font-bodyFont font-bold text-xl h-10 w-52 bg-blue-900 rounded-lg hover:text-black"> <a href="../images/Resume/jagdishcv.pdf" download="jadishcv.pdf"> Download Resume </a> </button>
+            </div>
           <div className="flex py-8">
 
             <div> <a href="https://github.com/yogijagdish" className="pr-4 inline-block hover:text-black">
@@ -45,8 +48,8 @@ export default function Home() {
             <AiFillLinkedin size={36}/>
               </a>
             </div>
-
-          </div>
+          </div>       
+          
         </div>
         {/* second grid */}
         <div>

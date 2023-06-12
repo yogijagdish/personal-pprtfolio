@@ -25,6 +25,7 @@ import html from "./skills/html.png"
 import my_image from "./Home/my_image.png";
 
 
+
 export {
     my_image,
     logo,
@@ -45,6 +46,6 @@ export {
     redux,
     html,
     css,
-    tailwindcss
+    tailwindcss,
 
 }
