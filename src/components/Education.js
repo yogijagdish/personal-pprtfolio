@@ -1,8 +1,25 @@
-import React from "react";
+import React, {useState,useRef, useEffect} from "react";
+
+import { motion, useScroll, useTransform } from "framer-motion";
+
+import { useInView } from "framer-motion";
+  
 
 export default function Education() {
+
+    const ref = useRef(null);
+
+    const isInView = useInView(ref)
+
+    useEffect(()=>{
+        console.log("we are in education section")
+    },[isInView])
+
+
+
+
     return (
-        <section className="bg-gray-700 text-white md:p-48 scroll-smooth" id="education">
+        <section ref={ref} className="bg-gray-700 text-white md:p-48 scroll-smooth" id="education">
             <div className="flex flex-col">
 
             <div className="font-titleFont font-extrabold text-center text-2xl md:text-6xl mx-auto py-6 border-b-[5px] border-indigo-600">

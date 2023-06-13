@@ -4,6 +4,33 @@ import {AiFillGithub,AiOutlineTwitter,AiFillLinkedin} from "react-icons/ai";
 
 import { my_image } from "../images/images";
 
+import {motion} from 'framer-motion';
+
+const imageTransitionVariant = {
+  hidden: {
+    opacity: 0,
+  },
+  show: {
+    opacity: 1,
+    transition: {
+      delay: 1,
+      duration:8,
+    }
+
+  }
+} 
+
+const buttonVariant = {
+  hidden: {
+    scale: 1,
+  },
+  show: {
+    originX:0,
+    scale: 1.2
+    
+  }
+}
+
 export default function Home() {
   return (
 
@@ -28,33 +55,47 @@ export default function Home() {
             I am <span className="font-titleFont"> J</span>agdish Yogi <br/>
             Web Developer
           </h1>
-          <div className="pt-8">
+          <motion.div className="pt-8"
+          variants={buttonVariant}
+          initial="hidden"
+          whileHover="show">
             <button className="font-bodyFont font-bold text-xl h-10 w-52 bg-blue-900 rounded-lg hover:text-black"> <a href="../images/Resume/jagdishcv.pdf" download="jadishcv.pdf"> Download Resume </a> </button>
-            </div>
+            </motion.div>
+            
           <div className="flex py-8">
 
-            <div> <a href="https://github.com/yogijagdish" className="pr-4 inline-block hover:text-black">
+            <motion.div 
+            variants={buttonVariant}
+            initial="hidden"
+            whileHover="show"> <a href="https://github.com/yogijagdish" className="pr-4 inline-block hover:text-black">
             <AiFillGithub size={36}/>
             </a>
-            </div>
+            </motion.div>
 
-            <div>
+            <motion.div variants={buttonVariant}
+          initial="hidden"
+          whileHover="show">
               <a href="https://twitter.com/JagdishYogi14" className="pr-4 inline-block hover:text-black">
             <AiOutlineTwitter size={36}/>
             </a> 
-            </div>
-            <div>
+            </motion.div>
+            <motion.div variants={buttonVariant}
+          initial="hidden"
+          whileHover="show">
               <a href="https://www.linkedin.com/in/jagdishyogi/" className="pr-4 inline-block hover:text-black">
             <AiFillLinkedin size={36}/>
               </a>
-            </div>
+            </motion.div>
           </div>       
           
         </div>
         {/* second grid */}
-        <div>
+        <motion.div 
+        variants={imageTransitionVariant}
+        initial="hidden"
+        animate="show">
           <img src={my_image} alt="gif images" className="h-96"/>
-        </div>
+        </motion.div>
       </div>
     </section>
   )
