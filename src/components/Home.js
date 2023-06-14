@@ -6,19 +6,6 @@ import { my_image } from "../images/images";
 
 import {motion} from 'framer-motion';
 
-const imageTransitionVariant = {
-  hidden: {
-    opacity: 0,
-  },
-  show: {
-    opacity: 1,
-    transition: {
-      delay: 1,
-      duration:8,
-    }
-
-  }
-} 
 
 const buttonVariant = {
   hidden: {
@@ -90,12 +77,9 @@ export default function Home() {
           
         </div>
         {/* second grid */}
-        <motion.div 
-        variants={imageTransitionVariant}
-        initial="hidden"
-        animate="show">
+        <div>
           <img src={my_image} alt="gif images" className="h-96"/>
-        </motion.div>
+        </div>
       </div>
     </section>
   )

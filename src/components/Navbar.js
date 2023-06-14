@@ -4,24 +4,11 @@ import "../customCSS/desktopNavbar.css"
 import React from "react";
 import {logo} from "../images/images"
 
-import {motion} from 'framer-motion';
 
 // import from react icons for making icons
 import {BsThreeDots,BsThreeDotsVertical} from "react-icons/bs"
 
 import { useState } from "react";
-
-const transitonVariant = {
-  hidden: {
-    y: -100
-  },
-  visible: {
-    y:0,
-    transition: {
-      duration: 1,
-    }
-  }
-}
 
 export default function Navbar() {
 
@@ -42,10 +29,7 @@ export default function Navbar() {
         fixed -> makes the header fix and doesnot move durinf scrolling
         w-full -> has the full width of the screen
     */
-    <motion.header className="flex justify-between px-5 py-2 bg-gray-900 text-white fixed w-full z-10"
-     variants={transitonVariant}
-     initial="hidden"
-     animate="visible">
+    <header className="flex justify-between px-5 py-2 bg-gray-900 text-white fixed w-full z-10">
 
       <a href="/" className="logo text-2xl font-titleFont font-bold"> <img src={logo} alt="logo of j" className="float-left h-8 mr-2 ml-2"/> Jagdish </a>
 
@@ -85,6 +69,6 @@ export default function Navbar() {
         {!toggle ? <BsThreeDots size={30} />: <BsThreeDotsVertical size={30}/>}
       </button>
 
-    </motion.header>
+    </header>
   )
 }
