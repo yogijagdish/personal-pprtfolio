@@ -41,18 +41,18 @@ export default function Contact() {
                     <form onSubmit={handleSubmit} className="grid gap-6">
                         <div className="flex flex-col md:flex-row gap-4">
                             {/* name */}
-                        <label htmlFor="Name" className="font-titleFont font-bold text-xl"> Name:  <input type="text" name="name" id="name" className="h-8 w-56 ml-6 border-2 rounded-lg text-md bg-navColour text-textColour font-bodyFont" onChange={handleChange}/></label>
+                        <label htmlFor="Name" className="font-titleFont font-bold text-xl"> Name:  <input type="text" name="name" id="name" className="h-8 w-56 ml-6 border-2 rounded-lg text-md bg-secondBackgroundColour text-textColour font-bodyFont" onChange={handleChange}/></label>
                         {/* email */}
-                        <label htmlFor="Email Id" className="font-titleFont font-bold text-xl"> Email:  <input type="email" name="email" id="email" className="h-8 w-56 ml-4 border-2 rounded-lg bg-navColour text-textColour text-md" onChange={handleChange}/></label>
+                        <label htmlFor="Email Id" className="font-titleFont font-bold text-xl"> Email:  <input type="email" name="email" id="email" className="h-8 w-56 ml-4 border-2 rounded-lg bg-secondBackgroundColour text-textColour text-md" onChange={handleChange}/></label>
                         </div>
                         {/* subject */}
-                        <label htmlFor="Subject" className="font-titleFont font-bold text-xl"> Subject:  <input type="text" name="subject" id="subject" className="h-8 w-52 md:w-56 ml-1 border-2 rounded-lg bg-navColour text-textColour text-md" onChange={handleChange}/></label>
+                        <label htmlFor="Subject" className="font-titleFont font-bold text-xl"> Subject:  <input type="text" name="subject" id="subject" className="h-8 w-52 md:w-56 ml-1 border-2 rounded-lg bg-secondBackgroundColour text-textColour text-md" onChange={handleChange}/></label>
                         {/* message */}
                         <label htmlFor="Message" className="font-titleFont font-bold text-xl"> Message:  </label>
                         {/* text area */}
-                        <textarea name="message" id="message" cols="30" rows="10" placeholder="Enter your Message" className="border-2 rounded-lg text-md bg-navColour text-textColour" onChange={handleChange}/>
+                        <textarea name="message" id="message" cols="30" rows="10" placeholder="Enter your Message" className="border-2 rounded-lg text-md bg-secondBackgroundColour text-textColour" onChange={handleChange}/>
 
-                        <button type="submit" className="font-titleFont font-bold text-xl bg-blue-600 h-8 w-32 rounded-lg"> Submit </button>
+                        <button type="submit" className="font-titleFont font-bold text-xl bg-navColour h-8 w-32 rounded-lg"> Submit </button>
                     </form>
                 </div>
                 {/* gif image */}

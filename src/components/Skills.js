@@ -30,7 +30,7 @@ export default function Skills() {
 
 
     return (
-        <section className="bg-secondBackgroundColour text-textColour scroll-smooth" id="skills">
+        <section className="bg-backgroundColour text-textColour scroll-smooth" id="skills">
             <div className="flex flex-col">
 
             <div className="font-titleFont font-extrabold mx-auto text-2xl md:text-6xl py-6 text-center border-b-[5px] border-indigo-600 mt-16"
@@ -40,7 +40,7 @@ export default function Skills() {
             </div>
             <div className="font-titleFont font-extrabold mx-auto text-xl md:text-4xl py-6 text-center mt-20">
                 Programming Skills
-                <div className="grid grid-cols-2 mx-8 md:grid-cols-4 gap-y-8 md:gap-64 mt-16">
+                <div className="grid grid-cols-2 mx-8 md:grid-cols-4 gap-y-8 md:gap-24 mt-16">
                     <img src={c_programming} alt="c" className="h-24" 
                     data-aos="fade-right"
                     data-aos-duration="1000"/>
@@ -56,8 +56,8 @@ export default function Skills() {
                 </div>
             </div>
             <div className="font-titleFont font-extrabold mx-auto text-xl md:text-4xl py-6 text-center mt-16">
-                FrontEnd Skills
-                <div className="grid grid-cols-2 md:grid-cols-4 gap-x-16 md:gap-x-64 gap-y-8 md:gap-y-24 mt-16">
+                Frontend Skills
+                <div className="grid grid-cols-2 md:grid-cols-4 gap-x-16 md:gap-x-24 gap-y-8 md:gap-y-24 mt-16">
                 <img src={html} alt="html" className="h-24"
                 data-aos="fade-down"
                 data-aos-duration="1000"/>
@@ -79,8 +79,8 @@ export default function Skills() {
                 </div>
             </div>
             <div className="font-titleFont font-extrabold mx-auto text-xl md:text-4xl py-6 text-center mt-16">
-                Backend SKills
-                <div className="grid grid-cols-2 gap-y-8 md:grid-cols-3 md:gap-64 mt-16">
+                Backend Skills
+                <div className="grid grid-cols-2 gap-y-8 md:grid-cols-3 md:gap-32 mt-16">
                 <img src={python} alt="python" className="h-24" 
                 data-aos="fade-right"
                 data-aos-duration="1000"/>
@@ -95,7 +95,7 @@ export default function Skills() {
             </div>
             <div className="font-titleFont font-extrabold mx-auto text-xl md:text-4xl py-6 text-center mt-16">
                 Other Skills
-                <div className="grid grid-cols-2 gap-16 md:gap-64 mt-16">
+                <div className="grid grid-cols-2 gap-16 md:gap-32 mt-16">
                     <img src={git} alt="git" className="h-24"
                     data-aos="fade-right"
                     data-aos-duration="1000"/>

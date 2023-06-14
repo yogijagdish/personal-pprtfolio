@@ -2,7 +2,9 @@ import React from "react";
 
 import {AiFillGithub,AiOutlineTwitter,AiFillLinkedin} from "react-icons/ai";
 
-import { my_image } from "../images/images";
+import { jd } from "../images/images";
+
+
 
 import {motion} from 'framer-motion';
 
@@ -39,14 +41,14 @@ export default function Home() {
         <div className="hero-info pb-5 md:pb-0">
           <h1 className="text-4xl lg:text-6xl font-bodyFont">
             Hi, <br/>
-            I am <span className="font-titleFont"> J</span>agdish Yogi <br/>
+            I am <span className="font-extrabold text-orange-400" style={{ textShadow: '2px 2px 4px rgba(0, 0, 0, 0.5)' }}>Jagdish Yogi </span> <br/>
             Web Developer
           </h1>
           <motion.div className="pt-8"
           variants={buttonVariant}
           initial="hidden"
           whileHover="show">
-            <button className="font-bodyFont font-bold text-xl h-10 w-52 bg-blue-900 rounded-lg hover:text-black"> <a href="../images/Resume/jagdishcv.pdf" download="jadishcv.pdf"> Download Resume </a> </button>
+            <button className="font-bodyFont font-bold text-xl h-10 w-52 bg-navColour rounded-lg hover:text-black"> <a href="../images/Resume/jagdishcv.pdf" download="jadishcv.pdf"> Download Resume </a> </button>
             </motion.div>
             
           <div className="flex py-8">
@@ -78,7 +80,7 @@ export default function Home() {
         </div>
         {/* second grid */}
         <div>
-          <img src={my_image} alt="gif images" className="h-96"/>
+          <img src={jd} alt="gif images"/>
         </div>
       </div>
     </section>

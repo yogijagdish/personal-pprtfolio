@@ -1,6 +1,7 @@
 // importing images that are required to display in home page
 import logo from "./Home/j_image.webp"
 import pp from "./Home/pp.gif";
+import jd from "./Home/jd.JPG"
 
 // importing images that are required to display in projects sector
 import portfolio from "./Projects/portfolio.jpg";
@@ -47,5 +48,6 @@ export {
     html,
     css,
     tailwindcss,
+    jd
 
 }

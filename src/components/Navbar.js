@@ -29,9 +29,9 @@ export default function Navbar() {
         fixed -> makes the header fix and doesnot move durinf scrolling
         w-full -> has the full width of the screen
     */
-    <header className="flex justify-between px-5 py-2 bg-navColour text-textColour fixed w-full z-10">
+    <header className="flex justify-between px-5 py-4 bg-teal-500 text-navTextColour fixed w-full z-10">
 
-      <a href="/" className="logo text-2xl font-titleFont font-bold"> <img src={logo} alt="logo of j" className="float-left h-8 mr-2 ml-2"/> Jagdish </a>
+      <a href="/" className="logo text-2xl font-bodyFont font-bold"> <img src={logo} alt="logo of j" className="float-left h-8 mr-2 ml-2"/> Jagdish </a>
 
       {/* desktop navbar */}
 
@@ -39,7 +39,7 @@ export default function Navbar() {
           md:block -> displays all the content in the block */}
 
       <nav className="hidden md:block">
-        <ul className="flex">
+        <ul className="flex font-titleFont font-extrabold">
           <li> <a href="/#home" > Home </a></li>
           <li> <a href="/#education"> Education </a> </li>
           <li> <a href="/#projects"> Projects </a> </li>

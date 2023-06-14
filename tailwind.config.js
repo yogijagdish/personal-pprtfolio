@@ -21,9 +21,10 @@ module.exports = {
     },
     colors: {
       textColour: '#333333',
-      backgroundColour: '#EAE6EA',
-      navColour: '#FFFFFF',
-      secondBackgroundColour: '#EAE6D7'
+      backgroundColour: '#B6DCD4',
+      navColour: '#C9BE12 ',
+      secondBackgroundColour: '#EAE6D7',
+      navTextColour: '#000000'
     }
     
   }
