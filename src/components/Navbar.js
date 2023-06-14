@@ -29,7 +29,7 @@ export default function Navbar() {
         fixed -> makes the header fix and doesnot move durinf scrolling
         w-full -> has the full width of the screen
     */
-    <header className="flex justify-between px-5 py-2 bg-gray-900 text-white fixed w-full z-10">
+    <header className="flex justify-between px-5 py-2 bg-navColour text-textColour fixed w-full z-10">
 
       <a href="/" className="logo text-2xl font-titleFont font-bold"> <img src={logo} alt="logo of j" className="float-left h-8 mr-2 ml-2"/> Jagdish </a>
 

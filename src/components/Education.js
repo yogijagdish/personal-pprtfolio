@@ -12,7 +12,7 @@ export default function Education() {
     },[]);
 
     return (
-        <section className="bg-gray-700 text-white md:p-16 md:pb-44 scroll-smooth" id="education">
+        <section className="bg-secondBackgroundColour text-textColour md:p-16 md:pb-44 scroll-smooth" id="education">
             <div className="flex flex-col">
 
             <div className="font-titleFont font-extrabold text-center text-2xl md:text-6xl mx-auto py-6 border-b-[5px] border-indigo-600"
@@ -20,7 +20,7 @@ export default function Education() {
              data-aos-duration="1000">
                 My Education
             </div>
-            <div className="grid sm:grid-cols-2 md:gap-64 mt-16 md:grid-cols-3  items-center justify-between">
+            <div className="  grid sm:grid-cols-2 mt-16 md:grid-cols-3 items-center place-content-center align-center justify-between">
                 <div className="border-2 rounded-lg mx-4 my-4 border-gray-900 md:w-96 inline-block h-96"
                            data-aos="fade-right"
                            data-aos-easing="ease-in-sine"

@@ -19,6 +19,12 @@ module.exports = {
       bodyFont: ['Poppins','sans-serif'],
       titleFont: ['MOntserrat','sans-serif']
     },
+    colors: {
+      textColour: '#333333',
+      backgroundColour: '#EAE6EA',
+      navColour: '#FFFFFF',
+      secondBackgroundColour: '#EAE6D7'
+    }
     
   }
   },

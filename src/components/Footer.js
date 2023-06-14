@@ -5,7 +5,7 @@ import {MdLocationPin} from "react-icons/md"
 
 export default function Footer() {
   return(
-    <section className="bg-gray-700 text-white">
+    <section className="bg-secondBackgroundColour text-textColour">
       <div className="flex flex-col "> 
         <div className="text-center p-16 font-bodyFont text-xl italic">
           Sometimes Journey is more pleasant than the destination
@@ -21,7 +21,7 @@ export default function Footer() {
            | 
           <a href="/#contact" className="ml-4"> Contact </a>
         </div>
-        <div className="flex flex-row place-content-center font-bodyFont text-white pb-4 italic">
+        <div className="flex flex-row place-content-center font-bodyFont pb-4 italic">
         <MdLocationPin size={20}/>
         <p> Location: Hattiban, Lalitpur</p>
         </div>

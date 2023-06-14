@@ -16,7 +16,7 @@ export default function Projects() {
     },[]);
 
     return(
-        <section className="bg-gray-900 text-white p-8 md:p-32 scroll-smooth" id="projects">
+        <section className="bg-backgroundColour text-textColour p-8 md:p-32 scroll-smooth" id="projects">
             <div className="container md:mx-auto grid">
                 <div className="information-about-projects flex flex-col">
                     <h1 className="font-titleFont font-extrabold text-center text-2xl md:text-6xl mx-auto py-6 border-b-[5px] border-indigo-600"

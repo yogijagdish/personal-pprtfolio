@@ -30,7 +30,7 @@ export default function Skills() {
 
 
     return (
-        <section className="bg-gray-700 text-white scroll-smooth" id="skills">
+        <section className="bg-secondBackgroundColour text-textColour scroll-smooth" id="skills">
             <div className="flex flex-col">
 
             <div className="font-titleFont font-extrabold mx-auto text-2xl md:text-6xl py-6 text-center border-b-[5px] border-indigo-600 mt-16"

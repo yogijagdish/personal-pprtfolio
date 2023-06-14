@@ -25,7 +25,7 @@ export default function Home() {
      section allows to wrap all the element in a tag.
      py-36 allows the height of the section
      */
-    <section className="bg-gray-900 text-white px-5 py-32 md:py-60 scroll-smooth" id="home">
+    <section className="bg-backgroundColour text-textColour px-5 py-32 md:py-60 scroll-smooth" id="home">
       {/* we have two div here. One is for holding all the text and links and another for image
       grid -> displays all div in grid. These grids will be displayed in different lines which is idle for mobile
       md:grid-cols-2 -> this makes grid to have two columns so that both the div can be displayed side to side
