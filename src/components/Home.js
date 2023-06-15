@@ -17,11 +17,11 @@ const buttonVariant = {
 const imageVariant = {
   hidden: {
     scale: 1,
-    filter: "brightness(1)",
+    filter: "brightness(0.6)",
   },
   show: {
     scale: 1.1,
-    filter: "brightness(0.6)",
+    filter: "brightness(1)",
     transition: {
       duration: 0.3,
     }
@@ -37,6 +37,7 @@ export default function Home() {
             Hi, <br />
             I am <span className="font-extrabold">
               <motion.span
+              className="text-orange-400"
                 variants={buttonVariant}
                 initial="hidden"
                 whileHover="show"
@@ -89,7 +90,7 @@ export default function Home() {
           <motion.img src={jd} alt="gif images"
             variants={imageVariant}
             initial="hidden"
-            whileHover="show"
+            animate="show"
           />
         </div>
       </div>

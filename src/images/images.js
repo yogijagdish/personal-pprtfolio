@@ -24,6 +24,7 @@ import css from "./skills/CSS.png";
 import tailwindcss from "./skills/tailwindcss.png";
 import html from "./skills/html.png"
 import my_image from "./Home/my_image.png";
+import images from "./Home/images.JPG"
 
 
 
@@ -48,6 +49,7 @@ export {
     html,
     css,
     tailwindcss,
-    jd
+    jd,
+    images
 
 }

@@ -33,7 +33,7 @@ export default function Skills() {
         <section className="bg-backgroundColour text-textColour scroll-smooth" id="skills">
             <div className="flex flex-col">
 
-            <div className="font-titleFont font-extrabold mx-auto text-2xl md:text-6xl py-6 text-center border-b-[5px] border-indigo-600 mt-16"
+            <div className="font-titleFont font-extrabold mx-auto text-2xl md:text-6xl py-6 text-center border-b-[5px] border-orange-400 mt-16"
             data-aos="fade-up"
             data-aos-duration="1000">
                 Skills
@@ -48,10 +48,10 @@ export default function Skills() {
                     data-aos="fade-right"
                     data-aos-duration="1000"/>
                     <img src={js_programming} alt="javascript" className="h-24"
-                    data-aos="fade-left"
+                    data-aos="fade-up"
                     data-aos-duration="1000"/>
                     <img src={python} alt="python" className="h-24"
-                    data-aos="fade-left"
+                    data-aos="fade-up"
                     data-aos-duration="1000"/>
                 </div>
             </div>
@@ -88,7 +88,7 @@ export default function Skills() {
                 data-aos="zoom-out"
                 data-aos-duration="1000"/>
                 <img src={drf} alt="django rest framework" className="h-24 w-32 ml-8"
-                data-aos="fade-left"
+                data-aos="fade-up"
                 data-aos-duration="1000"/>
                 
                 </div>
@@ -100,7 +100,7 @@ export default function Skills() {
                     data-aos="fade-right"
                     data-aos-duration="1000"/>
                     <img src={githubimg} alt="github" className="h-24"
-                    data-aos="fade-left"
+                    data-aos="fade-up"
                     data-aos-duration="1000"/>
 
                 </div>

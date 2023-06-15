@@ -31,7 +31,7 @@ export default function Navbar() {
     */
     <header className="flex justify-between px-5 py-4 bg-teal-500 text-navTextColour fixed w-full z-10">
 
-      <a href="/" className="logo text-2xl font-bodyFont font-bold"> <img src={logo} alt="logo of j" className="float-left h-8 mr-2 ml-2"/> Jagdish </a>
+      <a href="/" className="logo text-2xl font-bodyFont font-bold"> <img src={logo} alt="logo of j" className="float-left h-8 ml-2"/>agdish </a>
 
       {/* desktop navbar */}
 
@@ -41,7 +41,7 @@ export default function Navbar() {
       <nav className="hidden md:block">
         <ul className="flex font-titleFont font-extrabold">
           <li> <a href="/#home" > Home </a></li>
-          <li> <a href="/#education"> Education </a> </li>
+          <li> <a href="/#about"> About </a> </li>
           <li> <a href="/#projects"> Projects </a> </li>
           <li> <a href="/#skills"> Skills </a> </li>
           <li> <a href="/#contact"> Contact</a> </li>
@@ -57,7 +57,7 @@ export default function Navbar() {
 
         <ul className="flex flex-col">
           <li> <a href="/#home"> Home </a> </li>
-          <li> <a href="/#education"> Education </a> </li>
+          <li> <a href="/#about"> About </a> </li>
           <li> <a href="/#projects"> Projects </a> </li>
           <li> <a href="/#skills"> Skills </a> </li>
           <li> <a href="/#contact"> Contact </a> </li>
