@@ -2,6 +2,12 @@ import React from "react";
 import { AiFillGithub, AiOutlineTwitter, AiFillLinkedin } from "react-icons/ai";
 import { jd } from "../images/images";
 import { motion } from 'framer-motion';
+import About from "./About";
+import Projects from './Projects';
+import Skills from './Skills';
+import Contact from './Contact';
+import Footer from "./Footer"
+import BackToTop from './BackToTop';
 
 const buttonVariant = {
   hidden: {
@@ -94,6 +100,12 @@ export default function Home() {
           />
         </div>
       </div>
+      <About/>
+    <Projects/>
+    <Skills/>
+    <Contact/>
+    <Footer/>
+    <BackToTop/>
     </section>
   )
 }

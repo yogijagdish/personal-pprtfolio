@@ -13,12 +13,12 @@ function App() {
     <>
     <Navbar/>
     <Home/>
-    <About/>
+    {/* <About/>
     <Projects/>
     <Skills/>
     <Contact/>
     <Footer/>
-    <BackToTop/>
+    <BackToTop/> */}
     </>
   );
 }
