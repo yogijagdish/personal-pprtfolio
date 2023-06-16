@@ -1,0 +1,34 @@
+{
+  "files": {
+    "main.css": "/personal-pprtfolio/static/css/main.ba5a2f66.css",
+    "main.js": "/personal-pprtfolio/static/js/main.9b7e4940.js",
+    "static/media/my_image.png": "/personal-pprtfolio/static/media/my_image.f128aa0133ad852e30a0.png",
+    "static/media/images.JPG": "/personal-pprtfolio/static/media/images.5bae67451631ab3ede93.JPG",
+    "static/media/jd.JPG": "/personal-pprtfolio/static/media/jd.6e060cfd53584ae11ecb.JPG",
+    "static/media/portfolio.jpg": "/personal-pprtfolio/static/media/portfolio.31e7b8d4a9554106768f.jpg",
+    "static/media/trekMonitoringSystem.jpg": "/personal-pprtfolio/static/media/trekMonitoringSystem.43f0b031efaadcc08fe6.jpg",
+    "static/media/pp.gif": "/personal-pprtfolio/static/media/pp.220ed75d4d3ccd811892.gif",
+    "static/media/j_image.webp": "/personal-pprtfolio/static/media/j_image.e886a17b8b8176d29e29.webp",
+    "static/media/django.png": "/personal-pprtfolio/static/media/django.3576befabec48770e8a7.png",
+    "static/media/c_programming.png": "/personal-pprtfolio/static/media/c_programming.c0da8156a8d17281c29e.png",
+    "static/media/tailwindcss.png": "/personal-pprtfolio/static/media/tailwindcss.9c2e5bcf4f97d73e438e.png",
+    "static/media/electronicHealthRecoed.jpg": "/personal-pprtfolio/static/media/electronicHealthRecoed.841605a3af1d18c3ee53.jpg",
+    "static/media/python.png": "/personal-pprtfolio/static/media/python.d1cb971d2adc6bbc181d.png",
+    "static/media/js_programming.png": "/personal-pprtfolio/static/media/js_programming.062825dbceed44567e91.png",
+    "static/media/redux.png": "/personal-pprtfolio/static/media/redux.518277ce041989f8f9f3.png",
+    "static/media/CSS.png": "/personal-pprtfolio/static/media/CSS.8ea58d31a9d39dd59031.png",
+    "static/media/react.png": "/personal-pprtfolio/static/media/react.cb383f7be127b0183272.png",
+    "static/media/cplusplus_programming.png": "/personal-pprtfolio/static/media/cplusplus_programming.a3831daac042f9d053ca.png",
+    "static/media/git.png": "/personal-pprtfolio/static/media/git.43b6f3f863d52616c2fe.png",
+    "static/media/github.png": "/personal-pprtfolio/static/media/github.43f79321bcfb6263df58.png",
+    "static/media/html.png": "/personal-pprtfolio/static/media/html.9f08adbbc9653455da8a.png",
+    "static/media/moneyCalculator.jpeg": "/personal-pprtfolio/static/media/moneyCalculator.40be0c83c5a8eeb3f6d2.jpeg",
+    "index.html": "/personal-pprtfolio/index.html",
+    "main.ba5a2f66.css.map": "/personal-pprtfolio/static/css/main.ba5a2f66.css.map",
+    "main.9b7e4940.js.map": "/personal-pprtfolio/static/js/main.9b7e4940.js.map"
+  },
+  "entrypoints": [
+    "static/css/main.ba5a2f66.css",
+    "static/js/main.9b7e4940.js"
+  ]
+}
