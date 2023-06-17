@@ -7,7 +7,7 @@ export default function Footer() {
   return(
     <section className="bg-backgroundColour text-textColour">
       <div className="flex flex-col "> 
-        <div className="text-center p-16 font-bodyFont text-xl italic">
+        <div className="text-center p-8 font-bodyFont text-xl italic">
           Sometimes Journey is more pleasant than the destination
         </div>
         <div className="font-bodyFont text-xl text-center p-8">

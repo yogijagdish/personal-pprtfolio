@@ -100,12 +100,6 @@ export default function Home() {
           />
         </div>
       </div>
-      <About/>
-    <Projects/>
-    <Skills/>
-    <Contact/>
-    <Footer/>
-    <BackToTop/>
     </section>
   )
 }
