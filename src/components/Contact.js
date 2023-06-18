@@ -1,4 +1,6 @@
-import React, {useState, useEffect} from "react";
+import React, {useEffect,useRef} from "react";
+
+import emailjs from '@emailjs/browser';
 
 import { pp } from "../images/images";
 
@@ -8,16 +10,12 @@ import "aos/dist/aos.css";
 
 export default function Contact() {
 
-    const [formData,setFormData] = useState({name:"",email:"",subject:"",message:""});
+    const form = useRef();
 
-    const handleChange = (e) => {
+    const sendEmail = (e) => {
         e.preventDefault();
-        setFormData({...formData,[e.target.name]:e.target.value});
-    }
 
-    const handleSubmit = (e) => {
-        e.preventDefault();
-        console.log(formData);
+        emailjs.sendForm('service_iwepqgr','template_7g5dsrg',)
     }
 
     useEffect(()=>{
@@ -38,12 +36,12 @@ export default function Contact() {
                 <div className="p-8" 
                 data-aos="fade-right"
                 data-aos-duration="1000"> 
-                    <form onSubmit={handleSubmit} className="grid gap-6">
+                    <form ref={form} onSubmit={sendEmail} className="grid gap-6">
                         <div className="flex flex-col md:flex-row gap-4">
                             {/* name */}
-                        <label htmlFor="Name" className="font-titleFont font-bold text-xl"> Name:  <input type="text" name="name" id="name" className="h-8 w-56 md:ml-6 border-2 rounded-lg text-md bg-secondBackgroundColour text-textColour font-bodyFont" onChange={handleChange}/></label>
+                        <label htmlFor="Name" className="font-titleFont font-bold text-xl"> Name:  <input type="text" name="user_name" id="name" className="h-8 w-56 md:ml-6 border-2 rounded-lg text-md bg-secondBackgroundColour text-textColour font-bodyFont" onChange={handleChange}/></label>
                         {/* email */}
-                        <label htmlFor="Email Id" className="font-titleFont font-bold text-xl"> Email:  <input type="email" name="email" id="email" className="h-8 w-56 md:ml-4 border-2 rounded-lg bg-secondBackgroundColour text-textColour text-md" onChange={handleChange}/></label>
+                        <label htmlFor="Email Id" className="font-titleFont font-bold text-xl"> Email:  <input type="email" name="user_email" id="email" className="h-8 w-56 md:ml-4 border-2 rounded-lg bg-secondBackgroundColour text-textColour text-md" onChange={handleChange}/></label>
                         </div>
                         {/* subject */}
                         <label htmlFor="Subject" className="font-titleFont font-bold text-xl"> Subject:  <input type="text" name="subject" id="subject" className="h-8 w-56 md:ml-1 border-2 rounded-lg bg-secondBackgroundColour text-textColour text-md" onChange={handleChange}/></label>
@@ -52,7 +50,7 @@ export default function Contact() {
                         {/* text area */}
                         <textarea name="message" id="message" cols="30" rows="10" placeholder="Enter your Message" className="border-2 rounded-lg text-md bg-secondBackgroundColour text-textColour" onChange={handleChange}/>
 
-                        <button type="submit" className="font-titleFont font-bold text-xl bg-navColour h-8 w-32 rounded-lg"> Submit </button>
+                        <input type="submit" value="Send" className="font-titleFont font-bold text-xl bg-navColour h-8 w-32 rounded-lg"> Submit </input>
                     </form>
                 </div>
                 {/* gif image */}

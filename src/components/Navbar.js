@@ -53,14 +53,18 @@ export default function Navbar() {
       {/* mobile-nav is css class made seprately in another imported folder
           left-[-100%] -> pushes the screen to -100% i.e. it is out of the screen
           left-0 -> displays the content from the extreme left */}
-      <nav className={ !toggle ? "mobile-nav left-[-100%]" : "mobile-nav left-0"}>
 
-        <ul className="flex flex-col">
-          <li> <a href="/personal-pprtfolio/#home"> Home </a> </li>
-          <li> <a href="/personal-pprtfolio/#about"> About </a> </li>
-          <li> <a href="/personal-pprtfolio/#projects"> Projects </a> </li>
-          <li> <a href="/personal-pprtfolio/#skills"> Skills </a> </li>
-          <li> <a href="/personal-pprtfolio/#contact"> Contact </a> </li>
+          {/* toggle inital value false --> three dot
+          toggle value true --> bavbar */}
+
+      <nav className={ toggle ? "mobile-nav left-0" : "mobile-nav left-[-100%]" }>
+
+        <ul className="flex flex-col ">
+          <li> <a href="/personal-pprtfolio/#home" onClick={handleToggle}> Home </a> </li>
+          <li><a href="/personal-pprtfolio/#about" onClick={handleToggle}> About </a> </li>
+          <li> <a href="/personal-pprtfolio/#projects" onClick={handleToggle}> Projects </a> </li>
+          <li> <a href="/personal-pprtfolio/#skills" onClick={handleToggle}> Skills </a> </li>
+          <li> <a href="/personal-pprtfolio/#contact" onClick={handleToggle}> Contact </a> </li>
         </ul>
       </nav>
 

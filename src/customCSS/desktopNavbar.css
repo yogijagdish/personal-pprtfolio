@@ -1,11 +1,17 @@
+nav li {
+@apply mt-2
+ }
+
 nav li a {
-    @apply px-4 py-5 text-lg
+    @apply mx-4 text-lg text-textColour font-bodyFont
  }
 
  nav li a:hover {
-    color: #7477FF;
+    color: #fb923c;
+    border-bottom: 5px solid #fb923c;
+    transform: scale(1.5) rotate(10deg);
  }
 
 .mobile-nav {
-@apply block md:hidden fixed top-10 py-6 w-full h-full bg-gray-900 duration-500
+@apply block md:hidden fixed top-12 font-titleFont font-extrabold py-6 w-full h-full bg-teal-500 text-navTextColour duration-500
 }
