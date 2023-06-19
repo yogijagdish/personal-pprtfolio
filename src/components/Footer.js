@@ -11,15 +11,15 @@ export default function Footer() {
           Sometimes Journey is more pleasant than the destination
         </div>
         <div className="font-bodyFont text-xl text-center p-8">
-          <a href="/#home" className="mr-4">Home</a>
+          <a href="/personal-pprtfolio/#home" className="mr-4">Home</a>
            | 
-          <a href="/#education" className="ml-4 mr-4">Education </a>
+          <a href="/personal-pprtfolio/#education" className="ml-4 mr-4"> About </a>
            | 
-          <a href="/#projects" className="ml-4 mr-4"> Projects </a>
+          <a href="/personal-pprtfolio/#projects" className="ml-4 mr-4"> Projects </a>
            | 
-          <a href="/#skills" className="ml-4 mr-4">Skills</a>
+          <a href="/personal-pprtfolio/#skills" className="ml-4 mr-4">Skills</a>
            | 
-          <a href="/#contact" className="ml-4"> Contact </a>
+          <a href="/personal-pprtfolio/#contact" className="ml-4"> Contact </a>
         </div>
         <div className="flex flex-row place-content-center font-bodyFont pb-4 italic">
         <MdLocationPin size={20}/>
